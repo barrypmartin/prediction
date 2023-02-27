@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 
 def main():
     st.title("Heart Health Predictor ")
-    gif_url = "https://giphy.com/gifs/heart-health-fundraiser-GX0MAkMMqDcqs"
+    gif_url = "https://www.rchsd.org/wp-content/uploads/kidshealth/images/image/ial/images/213/213_image.gif"
     st.image(gif_url, use_column_width=True)
     
     # Upload CSV file
