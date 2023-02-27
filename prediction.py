@@ -13,7 +13,9 @@ from sklearn.model_selection import train_test_split
 #from sklearn.ensemble import Hist_Gradient_Boosting_Classifier
 
 def main():
-    st.title("Heart Health Predictor")
+    st.title("Heart Health Predictor ")
+    gif_url = "http://3.bp.blogspot.com/-nslbumdNSCM/TdDSGwrDOwI/AAAAAAAACcw/TbQGaL5JhnE/s1600/3d+gif+animation+free+blog....+beating+heart++doctor+cardiologist+heart+surgeon+.gif"
+    st.image(gif_url, use_column_width=True)
     
     # Upload CSV file
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
