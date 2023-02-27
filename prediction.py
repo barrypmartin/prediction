@@ -14,8 +14,8 @@ from sklearn.model_selection import train_test_split
 
 def main():
     st.title("Heart Health Predictor ")
-    gif_url = "https://www.rchsd.org/wp-content/uploads/kidshealth/images/image/ial/images/213/213_image.gif"
-    st.image(gif_url, use_column_width=True)
+    #gif_url = "https://www.rchsd.org/wp-content/uploads/kidshealth/images/image/ial/images/213/213_image.gif"
+    #st.image(gif_url, use_column_width=True)
     
     # Upload CSV file
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
@@ -44,6 +44,8 @@ def main():
         
         # Show accuracy score
         st.write("Without Changes a Heart Attack is:", accuracy,"%" "Likely.")
+        gif_url = "https://www.rchsd.org/wp-content/uploads/kidshealth/images/image/ial/images/213/213_image.gif"
+        st.image(gif_url, use_column_width=True)
 
 if __name__ == "__main__":
     main()
