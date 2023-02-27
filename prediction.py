@@ -41,7 +41,7 @@ def main():
         accuracy = accuracy_score(y_test, y_pred)
         
         # Show accuracy score
-        st.write("Without Changes a Heart Attack is:", accuracy, "Likely.")
+        st.write("Without Changes a Heart Attack is:", accuracy,"% "Likely.")
 
 if __name__ == "__main__":
     main()
