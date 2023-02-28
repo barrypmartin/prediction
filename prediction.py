@@ -44,7 +44,7 @@ def main():
         
         # Show accuracy score
         st.write("Without Changes a Heart Attack is:", accuracy,"%" "Likely.")
-        gif_url = "https://www.rchsd.org/wp-content/uploads/kidshealth/images/image/ial/images/213/213_image.gif"
+        gif_url = "https://tenor.com/view/docville-documentary-film-festival-documentary-ilovedocville-anatomy-gif-13638486"
         st.image(gif_url, use_column_width=True)
 
 if __name__ == "__main__":
